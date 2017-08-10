@@ -1,0 +1,10 @@
+Model=Data
+Todos
+Users
+
+Controllers
+todo controller
+user controller
+
+Views
+ejs views

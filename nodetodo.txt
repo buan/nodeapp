@@ -1,0 +1,4 @@
+1)Create package.json-npm init
+2)install express-npm install express -save
+3)instal ejs-npm install ejs -save
+4)install body parser for post request-npm install body-parser -save
