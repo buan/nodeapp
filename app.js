@@ -1,6 +1,7 @@
 var express=require('express');
 var todoController=require('./controllers/todocontroller');
-
+var bodyParser = require('body-parser');
+var urlencodedParser = bodyParser.urlencoded({ extended: false });
 var app=express();
 
 //set static files

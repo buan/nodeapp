@@ -7,18 +7,26 @@
 	</head>
 	
 	<body>
-	<h1>Todo List</h1>
+	<h1>My Todo List</h1>
 		<div id="todo-table">
 			<form>
 				<input type="text" name="item" id="item">
 				<button type="submit">Add item</button>
 			</form>
 			
-			<ul>
-				
-			<li><%= todo.length;%></li>
-			
-			</ul>
+			<ol>
+				<%for(i=0;i<todo.length;i++){
+                %>
+			<li>
+                
+                <%=todo[i].item %>
+               
+            </li>
+			 <%
+                }
+              %>
+                
+			</ol>
 		</div>
 	</body>
 
