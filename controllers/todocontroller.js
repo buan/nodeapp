@@ -19,7 +19,8 @@ module.exports=function(app){
 	});
 	
 	app.post('/todo',function(req,res){
-		
+		data.push(req.body);
+		res.json(data)
 	});
 	
 	app.delete('/todo',function(req,res){

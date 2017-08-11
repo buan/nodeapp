@@ -8,3 +8,7 @@ user controller
 
 Views
 ejs views
+
+
+Install mongoose
+npm install mongoose --save
